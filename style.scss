@@ -1,0 +1,98 @@
+$fontStack: Ariel, Helventica, sans-serif;
+$lightColor: #ece5e5;
+$darkColor: #2b2323; 
+$primaryColor: #75149b;
+$secondaryColor: #f5e37d;
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(to right, $secondaryColor 20%, $primaryColor 100%);
+	font-family: $fontStack;
+    line-height: 1.6;
+    
+}
+
+.wrapperDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow: auto;
+    align-items: center;
+    justify-content: justify;
+    
+    header {
+        display: flex;
+        color: $darkColor;
+        font-family: 'Arial Black', Helvetica, sans-serif;
+        font-size: 35pt;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    h1 {
+        display: flex;
+        font-weight: bold;
+        font-family: 'Arial Black', Helvetica, sans-serif;
+        
+    }
+}
+
+.searchBarDiv {
+    input {
+        height: 30px;
+        padding: 2px;
+        border: groove;
+        width: 100%;
+        outline: none;
+        background-color: white;
+    }
+    button {
+        margin-top: 10px;
+        height: 25px;
+        background-color: gray;
+        color: $lightColor;
+        font-weight: bold;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    ::placeholder {
+        color: gray;
+        opacity: 0.6;
+      }
+
+}
+
+
+
+.currentDataDiv {
+
+}
+hr {
+    height:1px;
+    border-width:0;
+    border-top: 1px dotted gray;
+    
+}
+.fiveDaysForecastDiv {
+
+    
+
+}
+.column5days {
+    //column-count: 5;
+}
+
+#day1Div {
+   
+}

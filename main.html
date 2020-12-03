@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="weatherForecast.js" defer></script>
+</head>
+<body>
+
+	
+<div class="wrapperDiv">
+	<!--headers for title and text-->
+	<header>Weather Forecast App</header>
+
+	<!--div for search area and button-->
+	<div class="searchBarDiv">
+	  <form type="submit" onsubmit="return false">
+		<input name="searchBar" type="text" placeholder="Enter city name to search..." role="search bar" aria-label="Search for city" name="search">
+	  </form>
+     
+      <button name="searchButton" type="submit" role="search button">Search</button>
+	  <button id="saveButton" type="submit" role="save button">Save</button>
+	</div>
+	
+	
+	<!--current time/city/temp-->
+	<div class="currentDataDiv">
+		<h1 id="currentCityName">Default city</h1>
+		<h2 id="currentDate">Today's date</h2>
+		<h2 id="currentTime">Current time</h2>
+		<div id="currentIcon">CURRENT ICON</div>
+		<h3 id="currentTemp">Current temperature:</h3>
+		<h3 id="currentDateHigh">Temperature high:</h3>
+		<h3 id="currentDateLow">Temperature low:</h3>
+		<h3 id="currentDateHumidity">Humidity level %</h3>
+		<h3 id="currentDateWindSpeed">Wind speed mph</h3>
+	</div>
+	
+	<!--five days forecast-->
+	<!--<div class="fiveDaysForecastDiv">
+		<h1 id="fiveDaysForecastHeader">Weather forecast for the next 5 days</h1>
+	<section class="column5days"> -->
+		<!--day 1-->
+			<!--<div id="day1Div>
+				<h4>Day 1</h4>
+				<div id="day1Icon" tabindex="0">DAY1 ICON</div>
+				<h5 id="day1high">Day 1 High</h5>
+				<h5 id="day1low">Day 1 low</h5>
+			</div>
+			<hr>  
+			-->
+
+		<!--day 2
+			<div id="day2Div>
+				<h4>Day 2</h4>
+				<div id="day2Icon" tabindex="0">DAY2 ICON</div>
+				<h5 id="day2high">Day 2 High</h5>
+				<h5 id="day2low">Day 2 low</h5>
+			
+			<hr> -->
+		<!--day 3
+			<div id="day3Div>
+				<h4>Day 3</h4>
+				<div id="day3Icon" tabindex="0">DAY3 ICON</div>
+				<h5 id="day3high">Day 3 High</h5>
+				<h5 id="day3low">Day 3 low</h5>
+			-->
+		-		<!--day 4
+			<div id="day4Div>
+				<h4>Day 4</h4>
+				<div id="day4Icon" tabindex="0">DAY4 ICON</div>
+				<h5 id="day4high">Day 4 High</h5>
+				<h5 id="day4low">Day 4 low</h5>
+			-->
+	
+		<!--day 5
+			<div id="day5Div>
+				<h4>Day 5</h4>
+				<div id="day5Icon" tabindex="0">DAY5 ICON</div>
+				<h5 id="day5high">Day 5 High</h5>
+				<h5 id="day5low">Day 5 low</h5>
+			</div>
+			
+	</section>	-->
+	</div>
+</div>
+	
+
+</body>
+
+</html>
